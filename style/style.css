@@ -357,7 +357,7 @@ nav .btn {
 
 /* for responsive */
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 676px){
 
 
   .nan_title {
@@ -365,10 +365,7 @@ nav .btn {
     font-size: 30px;
     margin-right: 0px;
    }
-   nav ul li{
-    margin: 5px;
-   }
-
+ 
     nav .btn {
         border-radius: 5px;
         background: rgb(253, 110, 10);
@@ -447,4 +444,72 @@ nav .btn {
 }
 
 
+}
+
+/* responsive for teblet */
+
+@media screen and (min-width: 576px) and (max-width: 1024px){
+
+    nav{
+        justify-content: space-between;
+        padding: 10px  20px;
+    }
+
+    .nan_title{
+        margin-right: 100px;
+    }
+
+
+    .baner{
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .baner img{
+    width: 100%;
+    }
+
+    .header{
+    width: 95%;
+    margin: 0 auto;
+    }
+
+    .section_about{
+        width: 90%;
+        margin: 0 auto;
+      padding: 20px 30px;
+    }
+
+    .section_discription{
+        margin-bottom: 20px;
+    }
+
+    .about_skill{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .perent_skill{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resume_colam {
+        flex-direction: column;
+    }
+
+    .footer-section{
+        width: 95%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2% 5%;
+    }
+
+    .foot_col{
+        width: 100%;
+    }
+
+
+    
 }
