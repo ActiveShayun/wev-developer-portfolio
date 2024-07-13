@@ -310,6 +310,7 @@ nav .btn {
     background:  rgb(255, 248, 243);;
     display: flex;
     justify-content: center;
+    align-items: center;
      gap: 100px;
      margin-top: 30px;
 }
@@ -318,6 +319,7 @@ nav .btn {
     width:400px;
     display: flex;
     flex-direction: column;
+  
 
 }
 
@@ -363,7 +365,7 @@ nav .btn {
   .nan_title {
     font-weight: 800;
     font-size: 30px;
-    margin-right: 0px;
+    margin-right: 12px;
    }
  
     nav .btn {
@@ -381,6 +383,10 @@ nav .btn {
       nav{
         padding: 0;
         width: 95%;
+      }
+
+     nav ul li{
+        margin-right: 15px;
       }
    
 
